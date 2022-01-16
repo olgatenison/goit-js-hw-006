@@ -8,7 +8,7 @@ const categoryItemsRef = allCategoriesEl.querySelectorAll('.item');
 console.log('Number of categories:', categoryItemsRef.length);
 
 
-allCategoriesEl.forEach(function (element) {
+allCategoriesEl.forEach( (element) => {
 
         const titleEl = element.firstElementChild.textContent;
         console.log(`Category: ${titleEl}`);
