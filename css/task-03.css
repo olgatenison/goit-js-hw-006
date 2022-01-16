@@ -1,0 +1,11 @@
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery_image:not(:first-child) {
+    margin-left: 30px;
+} 
