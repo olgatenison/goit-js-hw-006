@@ -1,7 +1,5 @@
-const allCategoriesEl = newFunction();
-function newFunction() {
-    return document.querySelector('ul#categories');
-}
+const allCategoriesEl = document.querySelector('ul#categories');
+
 console.log(allCategoriesEl);
 
 const categoryItemsRef = allCategoriesEl.querySelectorAll('.item');
