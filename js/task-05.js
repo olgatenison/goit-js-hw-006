@@ -6,8 +6,6 @@ const nameOutput = document.querySelector('#name-output > span');
 console.log(nameOutput);
 
 
-
-
 inputForm.addEventListener('input', onInputChange)
 
 function onInputChange(event){
