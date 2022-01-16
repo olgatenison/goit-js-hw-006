@@ -13,11 +13,9 @@ allCategoriesEl.forEach( (element) => {
         const titleEl = element.firstElementChild.textContent;
         console.log(`Category: ${titleEl}`);
 
-        const itemsEl = element.lastElementChild;
-        const itemsNumberEl = itemsEl.querySelectorAll('li');
-        console.log(`Elements: ${itemsNumberEl.length}`);
-
-    });
+        const itemsEl = element.lastElementChild.children.length;
+        console.log(`Elements: ${itemsEl}`);
+});
 
 
 
