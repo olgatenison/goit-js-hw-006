@@ -22,11 +22,6 @@ function onFormSubmit (event){
 
 
 
-
-
-
-
-
 //const  formData = new FormData(event.currentTarget);
 //    formData.forEach((value, name) =>{
 //        console.log()
