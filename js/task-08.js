@@ -8,10 +8,10 @@ function onFormSubmit (event){
     const formElement = event.currentTarget.elements
     const mail = formElement.email.value;
     const password = formElement.password.value;
-    const formData ={mail, password};
+    const formData = {mail, password};
 
     if ( mail !== "" && password !== ""){
-    return formData;
+    console.log(formData);
     }
     else {
     event.currentTarget.reset();
