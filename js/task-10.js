@@ -4,23 +4,24 @@
 //При нажатии на кнопку Очистить, коллекция элементов очищается.
 
 
-const Refs = {
+const refs = {
   input: document.querySelector('input'),
-
-  cerate = document.querySelector('[data-create]'),
-  destroy = document.querySelector('[data-destroy]'),
+  createBtn: document.querySelector('[data-create]'),
+  destroyBtn: document.querySelector('[data-destroy]'),
+  boxes: document.querySelector("#boxes"),
 }
 
-
+refs.createBtn.addEventListener("click", createBoxes);
+//refs.destroyBtn.addEventListener("click", destroyBoxes);
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 };
 
 function createBoxes(amount){
-
-};
-
-function destroyBoxes(){
-
+  //amount = refs.input.value
+  //console.log(amount)
 }
+//function destroyBoxes(){
+//  refs.boxes.innerHTML = '';
+//}
