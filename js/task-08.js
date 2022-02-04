@@ -14,7 +14,7 @@ function onFormSubmit (event){
     return formData;
     }
     else {
-    form.reset();
+    event.currentTarget.reset();
     return alert("Все поля должны быть заполнены!");
     }   
 }
